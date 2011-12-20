@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib", "ext"]
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Fast AMF serializer/deserializer with remoting request/response wrappers to simplify integration}
-  s.test_files = ["spec/amf/class_mapping_spec.rb", "spec/amf/deserializer_spec.rb", "spec/amf/fast_class_mapping_spec.rb", "spec/amf/remoting_spec.rb", "spec/amf/serializer_spec.rb", "spec/amf/values/array_collection_spec.rb", "spec/amf/values/messages_spec.rb"]
+  s.test_files = ["spec/amf/class_mapping_spec.rb", "spec/amf/deserializer_spec.rb", "spec/amf/fast_class_mapping_spec.rb", "spec/amf/remoting_spec.rb", "spec/amf/serializer_spec.rb", "spec/amf/values/messages_spec.rb"]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
